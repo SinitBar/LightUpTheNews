@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.lightupthenews.search.SearchViewModel" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FilterFragment">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Languages:" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <RadioButton
+                    android:id="@+id/button_ar_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ar" />
+
+                <RadioButton
+                    android:id="@+id/button_de_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="de" />
+
+                <RadioButton
+                    android:id="@+id/button_en_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="en" />
+
+                <RadioButton
+                    android:id="@+id/button_es_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="es" />
+
+                <RadioButton
+                    android:id="@+id/button_fr_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fr" />
+
+                <RadioButton
+                    android:id="@+id/button_he_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="he" />
+
+                <RadioButton
+                    android:id="@+id/button_it_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="it" />
+
+                <RadioButton
+                    android:id="@+id/button_nl_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="nl" />
+
+                <RadioButton
+                    android:id="@+id/button_no_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="no" />
+
+                <RadioButton
+                    android:id="@+id/button_pt_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="pt" />
+
+                <RadioButton
+                    android:id="@+id/button_ru_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ru" />
+
+                <RadioButton
+                    android:id="@+id/button_se_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="se" />
+
+                <RadioButton
+                    android:id="@+id/button_ud_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ud" />
+
+                <RadioButton
+                    android:id="@+id/button_zh_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="zh" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Source categories:" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

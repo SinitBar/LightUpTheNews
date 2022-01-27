@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LightUpTheNews</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1384206662021691</string>
+    <string name="fb_login_protocol_scheme">fb1384206662021691</string>
+    <string name="light_up_the_news">Light Up the News!</string>
+    <string name="hint_search_by_phrase">Search by phrase</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out of vk</string>
+    <string name="search">Search</string>
+    <string name="article_image">article image</string>
+    <string name="published">Published:</string>
+    <string name="add_to_favorites">add to favorites</string>
+    <string name="not_logged">not logged in</string>
+    <string name="share_text">see article: </string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="set_nfilter">set \nfilter</string>
+    <string name="large_text">set \nfilter</string>
+    <string name="continue_with_vk">Continue with Vk</string>
+    <string name="continue_not_logged">Continue not logged</string>
+    <integer name="com_vk_sdk_AppId">8054550</integer>
+</resources>
